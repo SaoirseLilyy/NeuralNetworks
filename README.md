@@ -19,6 +19,7 @@ This Google Colab notebook explores the design and optimization of a Convolution
 4. [Results & Conclusion](#results--conclusion)
 5. [Running the Notebook](#running-the-notebook)
 6. [References](#references)
+7. [Setup](#setup)
 
 ## Introduction
 
@@ -80,6 +81,34 @@ The base CNN architecture includes:
 1. Open the notebook in Google Colab [here](#) (replace with your actual notebook URL).
 2. Ensure GPU acceleration is enabled (Runtime > Change runtime type > GPU).
 3. Execute all cells sequentially to perform the experiments and view results.
+
+## Setup
+
+To run the notebook, you need to install and import the required libraries. Here is the setup code used in this notebook:
+
+```python
+import numpy as np
+import pandas as pd
+import seaborn as sn
+from sklearn import metrics
+from sklearn.metrics import confusion_matrix, f1_score
+import matplotlib.pyplot as plt
+%matplotlib inline
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from torch.utils.data import DataLoader, random_split
+from torchvision import datasets, transforms
+from torchvision.transforms.transforms import Normalize
+from torch.utils.tensorboard import SummaryWriter
+from torchvision.utils import make_grid
+from tqdm import notebook
+from collections import Counter
+import os
+import time
+from google.colab import drive
+drive.mount('/content/gdrive')
+
 
 ## References
 
