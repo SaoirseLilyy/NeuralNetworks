@@ -33,13 +33,13 @@ from collections import Counter
 import os
 import time
 from google.colab import drive
+```
 
 Setup
 1. Clone the Repository
 To get started, clone the repository to your local machine:
 
-bash
-Copy code
+
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
 2. Local Environment Setup
