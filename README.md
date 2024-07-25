@@ -78,7 +78,7 @@ The base CNN architecture includes:
 
 ## Running the Notebook
 
-1. Open the notebook in Google Colab [here](https://github.com/username/repository/blob/main/filename.ipynb).
+1. Open the notebook in Google Colab [here](https://github.com/SaoirseLilyy/NeuralNetworks/blob/main/NeuralNets.ipynb).
 2. Ensure GPU acceleration is enabled (Runtime > Change runtime type > GPU).
 3. Execute all cells sequentially to perform the experiments and view results.
 
