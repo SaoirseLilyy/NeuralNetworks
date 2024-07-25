@@ -35,7 +35,7 @@ import time
 from google.colab import drive
 ```
 
-Setup
+## Setup
 1. Clone the Repository
 To get started, clone the repository to your local machine:
 
